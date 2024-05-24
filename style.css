@@ -1,5 +1,8 @@
-body{
-    background-color: white;
+/* body{
+    background-image: url('https://www.baltana.com/files/cars-1/Mercedes-Benz-AMG-Wallpapers-Full-HD-87131.jpg');
+} */
+.main{
+    background-color: white; 
 }
 .card a{
     color: inherit;
@@ -41,7 +44,7 @@ body{
 }
 
 @media (min-width: 750px) {
-    body{
+    .main{
         display: flex;
         align-items: center;
         justify-content: center;
